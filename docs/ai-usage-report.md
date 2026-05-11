@@ -1,16 +1,15 @@
-# AI Usage Report - Assignment 3
+# AI Usage Report - Final Assignment
 
 ## Tools Used & Use Cases
-- **Gemini (Google):** Used as a debugging assistant to troubleshoot asynchronous JavaScript (`async/await`) and to help refine Regular Expressions for form validation.
+- **Gemini (Google):** Used as a syntax and debugging assistant to help implement the "Typewriter" text animation and verify deployment steps.
 
 ## Specific Implementations
-1. **Troubleshooting API Fetch:** I was encountering errors when trying to pull data from the GitHub API. I used AI to help me understand how to properly structure the `try/catch` block and format the response as JSON so it would display correctly in the DOM.
-2. **Regex Debugging:** Writing the exact string of characters to validate an email address is tricky. I used AI to explain how the `/^[^\s@]+@[^\s@]+\.[^\s@]+$/` pattern works to ensure the user includes an '@' and a domain extension.
-3. **Performance Tips:** I asked the AI for quick ways to improve page load speed without changing my entire structure, and it suggested using the `defer` attribute on my script tag.
+1. **Typewriter Animation Logic:** I wanted to add an innovative, professional touch to my header. I used AI to help me understand how to use `setTimeout` and array methods (`split`, `pop`, `shift`) to create a looping typing and deleting effect. 
+2. **CSS Keyframes:** I used AI to generate the `@keyframes` syntax for the blinking cursor so it matched the speed of the typing effect.
 
 ## Benefits & Challenges
-- **Benefits:** The AI was excellent for explaining complex concepts like `Promises` and `Regex` in plain English, which saved me from having to read through dense documentation just to fix a minor bug.
-- **Challenges:** The AI sometimes provided overly complex solutions (like suggesting I use external libraries). I had to refine my prompts to force it to use basic, vanilla JavaScript to meet the assignment requirements.
+- **Benefits:** The AI was excellent at explaining the difference between `setInterval` and `setTimeout` for animations, allowing me to build a smooth effect without relying on heavy external libraries.
+- **Challenges:** Getting the timing right between the typing, pausing, and deleting phases was tricky. The AI's initial suggestions were too fast, so I had to manually adjust the millisecond delays in the JavaScript to make it look natural.
 
 ## Responsible Use & Modifications
-I built the structure and wrote the core functionality myself. I only utilized AI to verify my syntax, explain why a specific piece of code was failing, and suggest minor optimization tweaks. I ensured I fully understood the `fetch` workflow before implementing the API integration into my final project.
+I conceptualized the feature and wrote the HTML/CSS structure independently. I used AI to guide the JavaScript logic for the animation, but I thoroughly reviewed the code, customized the text array to my own personal details, and tweaked the timing variables to ensure I understood exactly how the loop functioned.
