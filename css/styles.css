@@ -147,3 +147,17 @@ button:hover {
     color: #006600;
     border: 1px solid #006600;
 }
+
+/* --- Innovation Feature: Blinking Cursor --- */
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: var(--text-color);
+    margin-left: 2px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
